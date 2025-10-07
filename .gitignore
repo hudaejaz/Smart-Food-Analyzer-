@@ -205,3 +205,59 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# ==========================
+# 📓 Jupyter
+# ==========================
+.ipynb_checkpoints/
+*.ipynb_convert/
+*.nbconvert/
+
+# ==========================
+# 📁 Data
+# ==========================
+# Ignore all large datasets but allow a small sample for demo
+/data/*
+!/data/sample_images/
+!/data/README.md
+
+# ==========================
+# 🧠 Models
+# ==========================
+# Ignore trained models (can be uploaded elsewhere or linked)
+# Keep placeholder/README
+/models/*
+!/models/README.md
+
+# ==========================
+# 📘 Documentation
+# ==========================
+# Ignore temporary builds or reports
+/docs/_build/
+*.tmp
+*.bak
+
+# ==========================
+# ⚙️ System Files
+# ==========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================
+# 🧪 IDE & OS Files
+# ==========================
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ==========================
+# 🧰 Misc
+# ==========================
+# Temporary or cached files
+*.zip
+*.tar.gz
+*.rar
+*.7z
